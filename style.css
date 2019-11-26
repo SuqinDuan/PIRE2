@@ -1,0 +1,497 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(bg.png);
+	background-position: top;
+	background-size: cover;
+}
+.bodycontainer {
+	margin-top: -10px;
+	background: hsla(0,0%,100%,0.65);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 400;
+}
+
+header {
+	width:100%;	
+	margin: 0px auto 10px auto;
+}
+
+#headertitle {
+	background-position: top;
+	background-size: cover;
+}
+.headernav {
+	width: 100%; 
+	height: 40px; 
+	margin: -20px auto auto auto; 
+	padding-top: 0px; 
+	font-size: 1em; 
+	background:#3F83C4;
+}
+
+a.smalllink1:link, a.smalllink1:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+}
+a.smalllink1:hover, a.smalllink1:active {
+	color:#F06422; 
+	text-decoration: underline;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+}
+a.smalllink2:link, a.smalllink2:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+}
+a.smalllink2:hover, a.smalllink2:active {
+	color:#F06422; 
+	text-decoration: underline;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+}
+
+a.smalllink3:link, a.smalllink3:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+}
+a.smalllink3:hover, a.smalllink3:active {
+	color:#F06422; 
+	text-decoration: underline;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+}
+a.smalllink4:link, a.smalllink4:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+}
+a.smalllink4:hover, a.smalllink4:active {
+	color:#F06422; 
+	text-decoration: underline;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 500;
+	
+}
+
+#facultypage {
+	border-radius: 2px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 15px 20px 40px 20px;
+}
+
+#homepage {
+	border-radius: 2px;
+	border-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#applypage {
+	height: 550px;
+	border-radius: 2px;
+	border-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: -10px;
+	padding: 15px 20px 0px 20px;
+}
+#aboutpage {
+	height: 200px;
+	border-radius: 2px;
+	border-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#faculty {
+	width:100%;
+	padding-top: 5px;
+}
+
+#moyer {
+	width: 100%;
+	}
+#blossey {
+	width: 100%;
+	}
+#ackerman {
+	width: 100%;
+	}
+#kuang {
+	width: 100%;
+	}
+#fueglistaler {
+	width: 100%;
+		
+	}
+#shaw {
+	width: 100%;
+	}
+#legras {
+	width: 100%;
+	}
+#stubenrauch {
+	width: 100%;
+	}
+#muller {
+	width: 100%;
+	}
+#kramer {
+	width: 100%;
+	}
+#mohler {
+	width: 100%;
+	}
+#voigt {
+	width: 100%;
+	}
+#wernli {
+	width: 100%;
+	}
+.headshots {
+	width: 200px;
+	margin: auto;
+	float: left;
+	display: inline-block;
+}
+.researchers {
+	clear: both; 
+	float: left; 
+	margin-right: 20px;}
+
+.bios {
+	width:calc(100% - 220px);
+	margin-top: -10px;
+	margin-bottom: 10px;
+	float: left;
+	display: inline-block;
+}
+
+a.biolink:link, a.biolink:visited {
+	color:#F06422; 
+	text-decoration: none;
+	font-weight: 300;
+}
+a.biolink:hover, a.biolink:active {
+	color:#F06422; 
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+a.homelink:link, a.homelink:visited {
+	color:#2B2B2B; 
+	text-decoration: none;
+	font-weight: 300;
+}
+a.homelink:hover, a.homelink:active {
+	color:#F06422; 
+	text-decoration: underline;
+	font-weight: 500;
+}
+a.sitelinks:link, a.sitelinks:visited {
+	color: #0E3767; 
+	text-decoration: underline;
+}
+a.sitelinks:hover, a.sitelinks:active {
+	color:#F06422; 
+	text-decoration: underline;
+}
+
+/* **************MEDIA BREAKS******************/
+@media only screen and (min-width: 360px) {
+    /* For mobile: */
+   	.bodycontainer {width: 360px; height: auto;}
+	p {font-weight: 400; font-size: .8em;}
+	header {width: 360px; height: 150px; margin: 0px auto 50px auto;}
+	#headertitle {width: 300px; height: auto; float:left; margin: 20px 30px auto 30px;}
+	.logo {width: 300px; height: auto; float: left;}
+	h3 {font-weight:normal;}
+	#summary {width:95%; margin: auto; font-size: 1em; font-weight: 400; line-height: 1.6em; padding-top: 0px;}
+	.headernav {width: 100%; height: 40px; margin: -20px auto auto auto; padding-top: 20px; font-size: .5em; background:#3F83C4;}
+	.smalllink1 {width:20%; float:left; margin-left: 5%; margin-right: 2%;}
+	.smalllink2 {width:20%; float:left; margin-left: 2%; margin-right: 2%;}
+	.smalllink3 {width:20%; float:left; margin-left: 2%; margin-right: 2%;}
+	.smalllink4 {width:20%; float:left; margin-left: 2%; margin-right: 0%;}
+	.heroimage {width: 200px; height: auto; margin: 10px 0px 0px 0px; }	
+	#intro {width:100%; float: left; margin: auto; padding-right: 5%; font-size: 1em; font-weight: 400; line-height: 1.6em;}
+	.heroimage {width: 360px; height: auto; margin: 10px 0px 0px 0px; }	
+	.headerbar {width: 100%; height: 60px; background:#F06422; color: #FFFFFF; font-size: 1.6em; line-height: .9em;  padding-top: 2px;}
+	#institutions {width: 100%; float: left; margin: -25px auto auto auto; font-size: .7em;}
+	#homepage {height: 1200px;}
+	#applypage {height: 300px;}
+	#facultypage {width: 360px; height: 4650px;}
+	#aboutpage {height: auto; padding-bottom: 20px;}
+	.headshots {width: 95px; margin: auto; float: left; display: inline-block;}
+	.researchers {width:90px; height:auto; margin: auto auto auto -10px;}
+	.bios {width:250px; margin-top: -10px; margin-bottom: 10px; float: left; display: inline-block; font-size: 1em; font-weight: 700; line-height: 2.9em;}
+	#moyer {width: 360px; height: 400px;}
+	#blossey {width: 360px; height: 560px;}
+	#ackerman {width: 360px; height: 400px;}
+	#kuang {width: 360px; height: 500px;}
+	#fueglistaler {width: 360px; height: 500px;}
+	#shaw {width: 360px; height: 500px;}
+	#legras {width: 360px; height: 100px;}
+	#stubenrauch {width: 360px; height: 100px;}
+	#muller {width: 360px; height: 100px;}
+	#kramer {width: 360px; height: 100px;}
+	#mohler {width: 360px; height: 100px;}
+	#voigt {width: 360px; height: 100px;}
+	#wernli {width: 360px; height: 200px;}	
+}
+
+@media only screen and (min-width: 400px) {
+    /* For mobile: */
+   	.bodycontainer {width: 400px; height:auto; margin: auto;}
+	p {font-weight: 200; font-size: .8em;}
+	header {width: 400px; height: 150px; margin: 0px auto 50px auto;}
+	#headertitle {width: 400px; height: auto; float:left; margin: 20px 50px auto 50px;}
+	.logo {width: 300px; height: auto; float: left;}
+	#summary {width:95%; margin: auto; font-size: 1em; font-weight: 400; line-height: 1.6em; padding-top: 0px;}
+	.headernav {width: 100%; height: 40px; margin: -20px auto auto auto; padding-top: 20px; font-size: .6em; background:#3F83C4;}
+	.smalllink1 {width:20%; float:left; margin-left: 5%; margin-right: 2%;}
+	.smalllink2 {width:20%; float:left; margin-left: 2%; margin-right: 2%;}
+	.smalllink3 {width:20%; float:left; margin-left: 2%; margin-right: 2%;}
+	.smalllink4 {width:20%; float:left; margin-left: 2%; margin-right: 0%;}
+	#intro {width:100%; margin: auto;font-size: 1em; font-weight: 400; line-height: 1.6em;}
+	.heroimage {width: 400px; height: auto; margin: 10px 0px 0px 0px; }	
+	#institutions {width: 100%; float: left; margin: -25px auto auto auto; font-size: .6em;}
+	#homepage {height: 1000px;}
+	#applypage {height: 300px;}
+	#facultypage {width: 400px; height: 5380px;}
+	#aboutpage {height: auto; padding-bottom: 20px;}
+	.headshots {width: 100px; margin: auto; float: left; display: inline-block;}
+	.researchers {width:95px; height:105px; }
+	.bios {width:250px; height: 200px; margin-top: -10px; margin-bottom: 20px; float: left; display: inline-block; }
+	#moyer {width: 400px; height: 520px;}
+	#blossey {width: 400px; height: 800px;}
+	#ackerman {width: 400px; height: 510px;}
+	#kuang {width: 400px; height: 660px;}
+	#fueglistaler {width: 400px; height: 660px;}
+	#shaw {width: 400px; height: 620px;}
+	#legras {width: 500px; height: 200px;}
+	#stubenrauch {width: 400px; height: 200px;}
+	#muller {width: 400px; height: 200px;}
+	#kramer {width: 400px; height: 200px;}
+	#mohler {width: 400px; height: 200px;}
+	#voigt {width: 400px; height: 200px;}
+	#wernli {width: 400px; height: 400px;}	
+}
+
+@media only screen and (min-width: 500px) {
+    /* For mobile: */
+   	.bodycontainer {width: 500px; height:auto; margin: auto;}
+	p {font-weight: 200; font-size: .9em;}
+	header {width: 500px; height: 200px; margin: 0px auto 50px auto;}
+	#headertitle {width: 500px; height: auto; float:left; margin: 20px 50px auto 50px;}
+	.logo {width: 400px; height: auto; float: left;}
+	#summary {width:95%; margin: auto; font-size: 1em; font-weight: 400; line-height: 1.6em; padding-top: 0px;}
+	.smalllink1 {width:20%; float:left; margin-left: 5%; margin-right: 2%;}
+	.smalllink2 {width:20%; float:left; margin-left: 2%; margin-right: 2%;}
+	.smalllink3 {width:20%; float:left; margin-left: 2%; margin-right: 2%;}
+	.smalllink4 {width:20%; float:left; margin-left: 2%; margin-right: 0%;}
+	#intro {width:100%; margin: auto;font-size: 1em; font-weight: 400; line-height: 1.6em;}
+	.heroimage {width: 500px; height: auto; margin: 10px 0px 0px 0px; }	
+	#institutions {width: 100%; float: left; margin: -25px auto auto auto; font-size: .6em;}
+	#homepage {height: 1100px;}
+	#applypage {height: 300px;}
+	#facultypage {width: 500px; height: 5300px;}
+	#aboutpage {height: 1200px; padding-bottom: 20px;}
+	.headshots {width: 100px; margin: auto; float: left; display: inline-block;}
+	.researchers {width:95px; height:105px; }
+	.bios {width:350px; height: 200px; margin-top: -10px; margin-bottom: 20px; float: left; display: inline-block; }
+	#moyer {width: 500px; height: 470px;}
+	#blossey {width: 500px; height: 740px;}
+	#ackerman {width: 500px; height: 470px;}
+	#kuang {width: 500px; height: 600px;}
+	#fueglistaler {width: 500px; height: 600px;}
+	#shaw {width: 500px; height: 550px;}
+	#legras {width: 500px; height: 250px;}
+	#stubenrauch {width: 500px; height: 250px;}
+	#muller {width: 500px; height: 250px;}
+	#kramer {width: 500px; height: 250px;}
+	#mohler {width: 500px; height: 250px;}
+	#voigt {width: 500px; height: 250px;}
+	#wernli {width: 500px; height: 200px;}
+}
+
+@media only screen and (min-width: 600px) {
+    /* For mobile: */
+   	.bodycontainer {width: 600px; height:auto; margin: auto;}
+	p {font-weight: 200; font-size: 1em;}
+	header {width: 600px; height: 200px; margin: 0px auto 50px auto;}
+	#headertitle {width: 500px; height: auto; float:left; margin: 20px 100px auto 100px;}
+	.logo {width: 400px; height: auto; float: left;}
+	#summary {width:95%; margin: auto; font-size: 1em; font-weight: 400; line-height: 1.6em; padding-top: 0px;}
+	.headernav {width: 100%; height: 60px; margin: -20px auto auto auto; padding-top: 20px; font-size: .9em; background:#3F83C4;}
+	.headerbar {width: 100%; height: 70px; background:#F06422; color: #FFFFFF; font-size: 2em; line-height: .9em;  padding-top: 1px;}
+	.smalllink1 {width:20%; float:left; margin-left: 5%; margin-right: 2%;}
+	.smalllink2 {width:20%; float:left; margin-left: 2%; margin-right: 2%;}
+	.smalllink3 {width:20%; float:left; margin-left: 2%; margin-right: 2%;}
+	.smalllink4 {width:20%; float:left; margin-left: 2%; margin-right: 0%;}
+	#intro {width:100%; margin: auto;font-size: 1em; font-weight: 400; line-height: 1.6em;}
+	.heroimage {width: 600px; height: auto; margin: 10px 0px 0px 0px; }	
+	#institutions {width: 100%; float: left; margin: -25px auto auto auto; font-size: .7em;}
+	#homepage {height: 1100px;}
+	#applypage {height: 300px;}
+	#facultypage {width: 600px; height: 6100px;}
+	#aboutpage {height: auto; padding-bottom: 20px;}
+	.nontechnical {font-size:.8em; font-weight: 400; line-height: 1.7em; width: 100%;}
+	.technical {;font-size:.8em; font-weight: 400; line-height: 1.7em; width: 100%;}
+	.headshots {width: 200px; margin: auto; float: left; display: inline-block;}
+	.researchers {width:175px; height:200px; }
+	.bios {width:350px; height: 200px; margin-top: -10px; margin-bottom: 20px; float: left; display: inline-block;}
+	#moyer {width: 600px; height: 530px;}
+	#blossey {width: 600px; height: 850px;}
+	#ackerman {width: 600px; height: 540px;}
+	#kuang {width: 600px; height: 690px;}
+	#fueglistaler {width: 600px; height: 690px;}
+	#shaw {width: 600px; height: 640px;}
+	#legras {width: 600px; height: 300px;}
+	#stubenrauch {width: 600px; height: 300px;}
+	#muller {width: 600px; height: 300px;}
+	#kramer {width: 600px; height: 300px;}
+	#mohler {width: 600px; height: 300px;}
+	#voigt {width: 600px; height: 300px;}
+	#wernli {width: 600px; height: 200px;}
+}
+
+@media only screen and (min-width: 700px) {
+    /* For mobile: */
+   	.bodycontainer {width:700px; height: auto; margin: -10 auto auto auto;}
+	header {width: 700px; height: 200px; margin: 0px 0px 50px 0px;}
+	#headertitle {width: 700px; height: auto; float:left; margin: 20px 150px auto 150px;}
+	.logo {width: 400px; height: auto; float: left;}
+	h3 {font-weight:lighter;}
+	#intro {width:100%; margin: auto;font-size: 1em; font-weight: 400; line-height: 1.6em;}
+	.heroimage {width: 700px; height: auto; margin: 10px 0px 0px 0px; }
+	#institutions {width:100%; margin: auto;font-size: .7em;}
+	#homepage {height: 1100px;}
+	#applypage {height: 450px;}
+	#facultypage {width: 700px; height: 5800px; margin-bottom: 50px;}
+	#aboutpage {height: 1400px; padding-bottom: 20px;}
+	.headshots {width: 200px; margin: auto; float: left; display: inline-block;}
+	.researchers {width:175px; height:200px; }
+	.bios {width:450px; height: 200px; margin-top: -10px; margin-bottom: 20px; float: left; display: inline-block;}
+	#moyer {width: 700px; height: 450px; margin-bottom: 20px;}
+	#blossey {width: 700px;  height: 710px; margin-bottom: 20px;}
+	#ackerman {width: 700px;  height: 500px; margin-bottom: 20px;}
+	#kuang {width: 700px;  height: 590px; margin-bottom: 20px;}
+	#fueglistaler {width: 700px;  height: 590px; margin-bottom: 20px;}
+	#shaw {width: 700px; height: 550px; margin-bottom: 20px;}
+	#legras {width: 700px; height: 300px;}
+	#stubenrauch {width: 700px; height: 300px;}
+	#muller {width: 700px; height: 300px;}
+	#kramer {width: 700px; height: 300px;}
+	#mohler {width: 700px; height: 300px;}
+	#voigt {width: 700px; height: 400px;}
+	#wernli {width: 700px;  height: auto; margin-bottom: 20px;}
+	.nontechnical {font-size:.8em; font-weight: 200; line-height: 1.7em; width: 46%; float: left;}
+	.technical {font-size:.8em; font-weight: 200; line-height: 1.7em; width: 46%; float: right;}
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    /* For small screen: */
+   	.bodycontainer {width:900px; margin: -10 auto auto auto; height: auto;}
+	header {width:900px; height: 250px; margin: 0px 0px 0px 0px;}
+	#headertitle {width: 400px; height: auto; float:left; margin: 20px 250px auto 250px;}
+	#intro {width:100%; margin: auto; font-size: 1em; font-weight: 400; line-height: 1.6em;}
+	.heroimage {width: 900px; height: auto; margin: 10px 0px 0px 0px; }
+	#institutions {width:100%; height: 400px; margin: auto;font-size: .7em;}
+	#homepage {height: 1050px;}
+	#applypage {height: 450px;}
+	#aboutpage {height: 1200px; padding-bottom: 20px;}
+	#facultypage {width: 900px; height: 5100px; margin-bottom: 20px;}
+	.headshots {width: 200px; margin: auto; float: left; display: inline-block;}
+	.researchers {width:175px; height:200px; }
+	.bios {width:650px; height: 200px; margin-top: -10px; margin-bottom: 20px; float: left; display: inline-block;}
+	#moyer {width: 900px; height: 400px; margin-bottom: 20px;}
+	#blossey {width: 900px; height: 580px; margin-bottom: 20px;}
+	#ackerman {width: 900px; height: 450px; margin-bottom: 20px;} 
+	#kuang {width: 900px; height: 470px; margin-bottom: 20px;}
+	#fueglistaler {width: 900px; height: 470px; margin-bottom: 20px;}
+	#shaw {width: 900px; height: 450px; margin-bottom: 20px;}
+	#legras {width: 900px; height: 300px;}
+	#stubenrauch {width: 900px; height: 300px;}
+	#muller {width: 900px; height: 300px;}
+	#kramer {width: 900px; height: 300px;}
+	#mohler {width: 900px; height: 300px;}
+	#voigt {width: 900px; height: 300px;}
+	#wernli {width: 900px; height: 400px; margin-bottom: 20px;}
+}
+
+
+
+/* @media only screen and (min-width: 1000px) {
+    /* For fullscreen: */ /* 
+	.bodycontainer {width:1000px; margin: -10 auto auto auto; height: auto;}
+	header {width:1000px; height: 300px; margin: 0px 0px 50px 0px;}
+	#headertitle {width: 1000px; height: auto; float:left; margin: 60px 250px auto 250px;}
+	.logo {width: 500px; height: auto; float: left;}
+	.internalnav {width: 100%; height: 40px; margin: -20px auto auto auto; padding-top: 0px; font-size: 1em; background:#BCDDF1;}
+	#intro {width:100%; margin: auto;font-size: 1em; font-weight: 400; line-height: 1.6em;}
+	.heroimage {width: 1000px; height: auto; margin: 10px 0px 0px -20px; }	
+}
+*/
+@media only screen and (min-width: 1090px) {
+    /* For widescreen: */
+
+}
+
+@media only screen and (min-width: 1200px) {
+    /* For widescreen: */
+}
+
+@media only screen and (min-width: 1250px) {
+    /* For widescreen: */
+}
+
+@media only screen and (min-width: 1400px) {
+    /* For widescreen: */
+	
+}
+
+@media only screen and (min-width: 1550px) {
+    /* For widescreen: */
+
+
+}
+@media only screen and (min-width: 1600px) {
+    /* For widescreen: */
+
+	
+
+
+}
